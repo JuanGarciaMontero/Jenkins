@@ -1,6 +1,6 @@
 pipeline {
 agent any
-     triggers { cron('0 * * * *') }
+     triggers { cron('*/5 * * * *') }
      options { timeout(time: 5) }
      parameters {
          booleanParam(name: "MOSTRAR_STEP", defaultValue: true,

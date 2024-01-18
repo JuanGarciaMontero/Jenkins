@@ -11,7 +11,7 @@ stages {
           environment { NAME = "JUAN" }
           when { expression { return params.MOSTRAR_STEP} }
     steps {
-                echo "Step 1. HOLA ${NAME}. SE EJECUTA EL CODIO DEL STEP 1"
+                echo "Step 1. HOLA ${NAME}. SE EJECUTA EL CODIO DEL STEP 1."
             }
         }
   stage('Segundo_Stage'){

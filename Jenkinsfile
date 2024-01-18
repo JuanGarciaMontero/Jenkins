@@ -7,7 +7,7 @@ agent any
          description: "QUIERES EJECUTAR EL CODIGO?")
      }
 stages {
- stage('Primer_Satage') {
+ stage('Primer_Stage') {
           environment { NAME = "JUAN" }
           when { expression { return params.MOSTRAR_STEP} }
     steps {
